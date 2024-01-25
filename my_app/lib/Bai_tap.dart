@@ -31,7 +31,7 @@ class MyObject {
   }
 
 //chia giá trị
-  void divide(int divisor) {gg
+  void divide(int divisor) {
     if (divisor != 0) {
       value ~/= divisor;
     }
@@ -154,7 +154,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-} 
+}
 
 void main() {
   runApp(MyApp());
